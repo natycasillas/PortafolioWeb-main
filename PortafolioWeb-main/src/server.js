@@ -45,7 +45,7 @@ app.get('/',(req,res)=>{
 })
 app.use(require('./routers/index.routes'))
 
-
+app.use(require('./routers/portafolio.routes'))
 
 // Archivos estáticos
 //Definir archivos estaticos y publicos
